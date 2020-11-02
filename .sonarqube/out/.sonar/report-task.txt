@@ -1,0 +1,6 @@
+projectKey=Calculation
+serverUrl=http://localhost:9000
+serverVersion=8.5.0.37579
+dashboardUrl=http://localhost:9000/dashboard?id=Calculation
+ceTaskId=AXWKecnH1_fafzNbEoQZ
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AXWKecnH1_fafzNbEoQZ

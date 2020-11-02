@@ -1,0 +1,12 @@
+T
+KD:\Projects\Calculator\Calculator\src\Calculator\Abstractions\IOperation.csutf-8^
+UD:\Projects\Calculator\Calculator\src\Calculator\Services\Addition\AdditionService.csutf-8_
+VD:\Projects\Calculator\Calculator\src\Calculator\Services\Addition\IAdditionService.csutf-8^
+UD:\Projects\Calculator\Calculator\src\Calculator\Services\Division\DivisionService.csutf-8_
+VD:\Projects\Calculator\Calculator\src\Calculator\Services\Division\IDivisionService.csutf-8k
+bD:\Projects\Calculator\Calculator\src\Calculator\Services\Multiplication\IMultiplicationService.csutf-8j
+aD:\Projects\Calculator\Calculator\src\Calculator\Services\Multiplication\MultiplicationService.csutf-8f
+]D:\Projects\Calculator\Calculator\src\Calculator\Services\Substraction\ISubtractionService.csutf-8e
+\D:\Projects\Calculator\Calculator\src\Calculator\Services\Substraction\SubtractionService.csutf-8‚
+wD:\Projects\Calculator\Calculator\src\Calculator\obj\Debug\netcoreapp3.1\.NETCoreApp,Version=v3.1.AssemblyAttributes.csutf-8n
+cD:\Projects\Calculator\Calculator\src\Calculator\obj\Debug\netcoreapp3.1\Calculator.AssemblyInfo.csutf-8
