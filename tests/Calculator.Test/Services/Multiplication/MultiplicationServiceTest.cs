@@ -12,9 +12,9 @@ namespace Calculator.Test.Services.Multiplication
             var b = 5;
             var expected = a * b;
 
-            var additionService = new MultiplicationService();
+            var service = new MultiplicationService();
 
-            var result = additionService.Calculate(a, b);
+            var result = service.Calculate(a, b);
 
             Assert.Equal(expected, result);
         }
@@ -27,9 +27,9 @@ namespace Calculator.Test.Services.Multiplication
         [InlineData(5, 10, 50)]
         public void Calculate_Multiplication_ResultEqualsExpected(int a, int b, int expected)
         {
-            var additionService = new MultiplicationService();
+            var service = new MultiplicationService();
 
-            var result = additionService.Calculate(a, b);
+            var result = service.Calculate(a, b);
 
             Assert.Equal(expected, result);
         }

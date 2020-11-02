@@ -12,9 +12,9 @@ namespace Calculator.Test.Services.Substraction
             var b = 15;
             var expected = a - b;
 
-            var additionService = new SubtractionService();
+            var service = new SubtractionService();
 
-            var result = additionService.Calculate(a, b);
+            var result = service.Calculate(a, b);
 
             Assert.Equal(expected, result);
         }
@@ -27,9 +27,9 @@ namespace Calculator.Test.Services.Substraction
         [InlineData(5, 10, -5)]
         public void Calculate_Subtraction_ResultEqualsExpected(int a, int b, int expected)
         {
-            var additionService = new SubtractionService();
+            var service = new SubtractionService();
 
-            var result = additionService.Calculate(a, b);
+            var result = service.Calculate(a, b);
 
             Assert.Equal(expected, result);
         }

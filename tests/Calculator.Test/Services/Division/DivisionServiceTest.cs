@@ -13,9 +13,9 @@ namespace Calculator.Test.Services.Division
             var b = 5;
             var expected = a / b;
 
-            var additionService = new DivisionService();
+            var service = new DivisionService();
 
-            var result = additionService.Calculate(a, b);
+            var result = service.Calculate(a, b);
 
             Assert.Equal(expected, result);
         }
@@ -25,9 +25,9 @@ namespace Calculator.Test.Services.Division
         [InlineData(1500, 100, 15)]
         public void Calculate_Multiplication_ResultEqualsExpected(int a, int b, int expected)
         {
-            var additionService = new DivisionService();
+            var service = new DivisionService();
 
-            var result = additionService.Calculate(a, b);
+            var result = service.Calculate(a, b);
 
             Assert.Equal(expected, result);
         }
@@ -39,9 +39,9 @@ namespace Calculator.Test.Services.Division
             var b = 0;
             var expected = "El dividendo (b) no puede ser igual a 0";
 
-            var additionService = new DivisionService();
+            var service = new DivisionService();
 
-            var exception = Assert.Throws<ArgumentException>(() => additionService.Calculate(a, b));
+            var exception = Assert.Throws<ArgumentException>(() => service.Calculate(a, b));
 
             Assert.Equal(expected, exception.Message);
         }
