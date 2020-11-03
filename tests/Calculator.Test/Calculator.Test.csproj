@@ -1,7 +1,7 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
-		<ProjectGuid>323E9F89-FE7F-45D5-95EF-CEA747FAB629</ProjectGuid>
+		<ProjectGuid>378784BB-B7D7-4790-AEAA-2FE6C372B12D</ProjectGuid>
 		<TargetFramework>netcoreapp3.1</TargetFramework>
 
 		<IsPackable>false</IsPackable>
