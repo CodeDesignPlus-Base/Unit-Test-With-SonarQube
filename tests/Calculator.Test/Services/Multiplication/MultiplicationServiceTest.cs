@@ -5,19 +5,19 @@ namespace Calculator.Test.Services.Multiplication
 {
     public class MultiplicationServiceTest
     {
-        //[Fact]
-        //public void Calculate_Multiplication_TwentyFive()
-        //{
-        //    var a = 5;
-        //    var b = 5;
-        //    var expected = a * b;
+        [Fact]
+        public void Calculate_Multiplication_TwentyFive()
+        {
+            var a = 5;
+            var b = 5;
+            var expected = a * b;
 
-        //    var service = new MultiplicationService();
+            var service = new MultiplicationService();
 
-        //    var result = service.Calculate(a, b);
+            var result = service.Calculate(a, b);
 
-        //    Assert.Equal(expected, result);
-        //}
+            Assert.Equal(expected, result);
+        }
 
 
         //[Theory]
