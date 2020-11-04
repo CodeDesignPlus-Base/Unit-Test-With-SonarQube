@@ -20,18 +20,18 @@ namespace Calculator.Test.Services.Multiplication
         }
 
 
-        //[Theory]
-        //[InlineData(5, 15, 75)]
-        //[InlineData(25, 1, 25)]
-        //[InlineData(40, 45, 1800)]
-        //[InlineData(5, 10, 50)]
-        //public void Calculate_Multiplication_ResultEqualsExpected(int a, int b, int expected)
-        //{
-        //    var service = new MultiplicationService();
+        [Theory]
+        [InlineData(5, 15, 75)]
+        [InlineData(25, 1, 25)]
+        [InlineData(40, 45, 1800)]
+        [InlineData(5, 10, 50)]
+        public void Calculate_Multiplication_ResultEqualsExpected(int a, int b, int expected)
+        {
+            var service = new MultiplicationService();
 
-        //    var result = service.Calculate(a, b);
+            var result = service.Calculate(a, b);
 
-        //    Assert.Equal(expected, result);
-        //}
+            Assert.Equal(expected, result);
+        }
     }
 }
