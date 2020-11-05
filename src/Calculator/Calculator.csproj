@@ -4,6 +4,34 @@
 
 		<ProjectGuid>323E9F89-FE7F-45D5-95EF-CEA747FAB629</ProjectGuid>
 		<TargetFramework>netcoreapp3.1</TargetFramework>
+		<PackageId>CodeDesignPlusCalculator</PackageId>
+		<Authors>CodeDesignPlus</Authors>
+		<Product>CodeDesignPlusCalculator</Product>
+		<PackageIcon>logo.png</PackageIcon>
+		<RepositoryUrl>https://github.com/codedesignplus/Unit-Test-With-SonarQube</RepositoryUrl>
+		<PackageProjectUrl>https://github.com/codedesignplus/Unit-Test-With-SonarQube</PackageProjectUrl>
+		<RepositoryType>Git</RepositoryType>
+		<PackageTags>Code Design Plus SDK</PackageTags>
+		<PackageLicenseFile>LICENSE.md</PackageLicenseFile>
+		<Description>Paquete de Prueba</Description>
+		<Copyright>© CodeDesignPlus. All rights reserved.</Copyright>
+		<Company>CodeDesignPlus</Company>
 	</PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile>..\..\docs\CSharp Doc\Calculator.xml</DocumentationFile>
+  </PropertyGroup>
+
+	
+	<ItemGroup>
+	  <None Include="..\..\LICENSE.md">
+	    <Pack>True</Pack>
+	    <PackagePath></PackagePath>
+	  </None>
+	  <None Include="..\..\logo.png">
+	    <Pack>True</Pack>
+	    <PackagePath></PackagePath>
+	  </None>
+	</ItemGroup>
 
 </Project>
